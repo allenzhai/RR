@@ -12,6 +12,6 @@
         android:layout_height="wrap_content"
         android:text="Welcome Screen"
         android:textSize="40sp"
-        tools:layout_editor_absoluteX="55dp"
+        tools:layout_editor_absoluteX="70dp"
         tools:layout_editor_absoluteY="338dp" />
 </android.support.constraint.ConstraintLayout>
