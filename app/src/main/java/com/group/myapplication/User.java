@@ -8,6 +8,11 @@ public class User
     private int phoneNum;
     private int userId;
 
+    User()
+    {
+        userId = uid++;
+    }
+
     User(String name, int phoneNum)
     {
         userId = uid++;
