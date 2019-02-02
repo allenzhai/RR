@@ -1,3 +1,4 @@
+//ALLEN ZHAI
 package com.group.myapplication;
 
 import android.os.Bundle;
