@@ -15,4 +15,14 @@ public class Driver extends User
         super(name, phoneNum);
         this.seats = seats;
     }
+
+    public int getSeats()
+    {
+        return seats;
+    }
+
+    public void setSeats(int seats)
+    {
+        this.seats = seats;
+    }
 }
