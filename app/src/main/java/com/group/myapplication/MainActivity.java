@@ -53,7 +53,7 @@ public class MainActivity extends AppCompatActivity
                 startActivity(homeIntent);
                 finish();
             }
-        }
+        }, SPLASH_TIME_OUT);
     }
 
     @Override
