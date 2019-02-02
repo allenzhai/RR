@@ -26,5 +26,9 @@ public class HomeActivity extends AppCompatActivity {
         }
     };
         myThread.start();
+
+        Intent mainIntent = new Intent(HomeActivity.this,LoginActivity.class);
+        startActivity(mainIntent);
+        finish();
     }
 }
